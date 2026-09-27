@@ -30,6 +30,8 @@
     };
     toggle.addEventListener('click', function () { setMenu(!nav.classList.contains('is-open')); });
     $$('a', nav).forEach(function (a) { a.addEventListener('click', function () { setMenu(false); }); });
+    // Fecha o menu se a tela crescer para o layout de desktop
+    window.matchMedia('(min-width: 981px)').addEventListener('change', function (e) { if (e.matches) setMenu(false); });
 
     /* ---------- Link ativo no menu ---------- */
     var links = $$('.nav__link');
