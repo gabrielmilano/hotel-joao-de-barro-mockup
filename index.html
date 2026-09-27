@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel João de Barro | Praia Brava, Itajaí – a 30 metros do mar</title>
+    <meta name="description" content="Hotel boutique no centrinho da Praia Brava, em Itajaí/SC. A 30 metros do mar, com piscina, SPA aquecido, café da manhã artesanal e nenhuma taxa extra. Reserve direto com o hotel.">
+    <meta name="theme-color" content="#3b2416">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="icon" type="image/png" href="src/img/logo.png">
+
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:title" content="Hotel João de Barro – Praia Brava, Itajaí">
+    <meta property="og:description" content="A 30 metros do mar, com piscina, SPA aquecido e café da manhã artesanal. Reserve direto com o hotel.">
+    <meta property="og:url" content="https://gabrielmilano.github.io/hotel-joao-de-barro-mockup/">
+    <meta property="og:image" content="https://gabrielmilano.github.io/hotel-joao-de-barro-mockup/src/img/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Hotel",
+      "name": "Hotel João de Barro",
+      "description": "Hotel boutique no centrinho da Praia Brava, a 30 metros do mar.",
+      "url": "https://hoteljoaodebarro.com.br/",
+      "image": "https://hoteljoaodebarro.com.br/src/img/hero-piscina.jpg",
+      "email": "hotel@hoteljoaodebarro.com.br",
+      "telephone": "+55-47-3360-6759",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rua Virgínia Ângelo Severino, 37",
+        "addressLocality": "Itajaí",
+        "addressRegion": "SC",
+        "addressCountry": "BR",
+        "postalCode": "88330-000"
+      },
+      "amenityFeature": [
+        {"@type": "LocationFeatureSpecification", "name": "Piscina externa", "value": true},
+        {"@type": "LocationFeatureSpecification", "name": "Banheira SPA aquecida", "value": true},
+        {"@type": "LocationFeatureSpecification", "name": "Wi-Fi gratuito", "value": true},
+        {"@type": "LocationFeatureSpecification", "name": "Estacionamento coberto", "value": true},
+        {"@type": "LocationFeatureSpecification", "name": "Café da manhã", "value": true}
+      ],
+      "sameAs": ["https://www.instagram.com/hoteljoaodebarro/", "https://www.facebook.com/hoteljoaodebarro/"]
+    }
+    </script>
+</head>
+<body>
+
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <!-- ============ HEADER ============ -->
+    <header class="header" id="header">
+        <div class="container header__inner">
+            <a href="#inicio" class="header__brand" aria-label="Hotel João de Barro – início">
+                <img src="src/img/logo.png" alt="Hotel João de Barro" width="334" height="211">
+                <span class="header__brand-text">Praia Brava<small>Itajaí · SC</small></span>
+            </a>
+            <nav class="nav" id="nav" aria-label="Principal">
+                <a href="#hotel" class="nav__link">O Hotel</a>
+                <a href="#suites" class="nav__link">Suítes</a>
+                <a href="#lazer" class="nav__link">Lazer</a>
+                <a href="#tour" class="nav__link">Tour 360°</a>
+                <a href="#regiao" class="nav__link">A Região</a>
+                <a href="#pacotes" class="nav__link">Pacotes</a>
+                <a href="#contato" class="nav__link">Contato</a>
+                <a href="#" data-book class="btn btn--gold nav__cta">Reservar</a>
+            </nav>
+            <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main id="conteudo">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio">
+        <div class="hero__slides" aria-hidden="true">
+            <div class="hero__slide is-active" style="background-image:url('src/img/hero-piscina.jpg')"></div>
+            <div class="hero__slide" style="background-image:url('src/img/hero-praia.jpg')"></div>
+            <div class="hero__slide" style="background-image:url('src/img/hero-fachada.jpg')"></div>
+        </div>
+        <div class="hero__shade"></div>
+
+        <div class="container hero__content">
+            <p class="eyebrow eyebrow--light reveal">Hotel boutique · Praia Brava · Itajaí</p>
+            <h1 class="hero__title reveal">A 30 passos do mar,<br><em>com jeito de casa.</em></h1>
+            <p class="hero__lead reveal">No centrinho da Praia Brava, entre o Morro do Careca e a Praia dos Amores. Piscina, SPA aquecido e café da manhã feito aqui mesmo — sem nenhuma taxa escondida.</p>
+            <div class="hero__actions reveal">
+                <a href="#suites" class="btn btn--light">Conhecer as suítes</a>
+                <a href="#tour" class="btn btn--ghost">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M10 8l6 4-6 4z" fill="currentColor" stroke="none"/></svg>
+                    Tour virtual 360°
+                </a>
+            </div>
+        </div>
+
+        <!-- Barra de reserva -->
+        <form class="booking reveal" id="bookingForm" aria-label="Verificar disponibilidade">
+            <div class="booking__field">
+                <label for="checkin">Check-in</label>
+                <input type="date" id="checkin" required>
+            </div>
+            <div class="booking__field">
+                <label for="checkout">Check-out</label>
+                <input type="date" id="checkout" required>
+            </div>
+            <div class="booking__field booking__field--sm">
+                <label for="adults">Adultos</label>
+                <select id="adults">
+                    <option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn--gold booking__submit">Ver disponibilidade</button>
+            <p class="booking__note">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l8 4v6c0 5-3.5 9-8 10-4.5-1-8-5-8-10V6z"/><path d="M9 12l2 2 4-4"/></svg>
+                Reserva direta, segura e com a melhor tarifa
+            </p>
+        </form>
+
+        <div class="hero__nav" id="heroNav">
+            <button class="hero__arrow" id="heroPrev" aria-label="Foto anterior"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></button>
+            <div class="hero__dots" id="heroDots">
+                <button class="is-active" aria-label="Foto 1"><i></i></button>
+                <button aria-label="Foto 2"><i></i></button>
+                <button aria-label="Foto 3"><i></i></button>
+            </div>
+            <span class="hero__count"><b id="heroCount">01</b> / 03</span>
+            <button class="hero__arrow" id="heroNext" aria-label="Próxima foto"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button>
+        </div>
+    </section>
+
+    <!-- ============ DIFERENCIAIS ============ -->
+    <section class="perks" aria-label="Diferenciais">
+        <div class="container perks__grid">
+            <div class="perk">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 16c2 0 2-1.5 4-1.5S8 16 10 16s2-1.5 4-1.5 2 1.5 4 1.5 2-1.5 4-1.5"/><path d="M2 20c2 0 2-1.5 4-1.5S8 20 10 20s2-1.5 4-1.5 2 1.5 4 1.5 2-1.5 4-1.5"/><circle cx="17" cy="7" r="3"/></svg>
+                <strong>30 m do mar</strong><span>No centrinho da Brava</span>
+            </div>
+            <div class="perk">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10h13v5a5 5 0 01-5 5H9a5 5 0 01-5-5z"/><path d="M17 12h1.5a2.5 2.5 0 010 5H17"/><path d="M8 3c0 1.5 1 1.5 1 3M12 3c0 1.5 1 1.5 1 3"/></svg>
+                <strong>Café artesanal</strong><span>Bolos feitos no hotel</span>
+            </div>
+            <div class="perk">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 12l3 3 5-6"/></svg>
+                <strong>Zero taxas extras</strong><span>O valor é o da diária</span>
+            </div>
+            <div class="perk">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l2-5h14l2 5M3 11v6h18v-6M3 11h18"/><circle cx="7.5" cy="14.5" r="1"/><circle cx="16.5" cy="14.5" r="1"/></svg>
+                <strong>Garagem coberta</strong><span>Fechada e monitorada</span>
+            </div>
+            <div class="perk">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M12 3c-4 0-8 3-8 7h16c0-4-4-7-8-7z"/><path d="M8 21h8"/></svg>
+                <strong>Kit praia grátis</strong><span>Cadeira, guarda-sol e toalha</span>
+            </div>
+            <div class="perk">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 9a15 15 0 0120 0M5 12.5a10 10 0 0114 0M8.5 16a5 5 0 017 0"/><circle cx="12" cy="19.5" r="1" fill="currentColor"/></svg>
+                <strong>Wi-Fi gratuito</strong><span>Em todo o hotel</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ O HOTEL ============ -->
+    <section class="section story" id="hotel">
+        <div class="container story__grid">
+            <div class="story__media reveal">
+                <figure class="story__img story__img--main">
+                    <img src="src/img/hotel-piscina-predio.jpg" alt="Fachada amarela do Hotel João de Barro vista da piscina, cercada por coqueiros" loading="lazy" width="803" height="436">
+                </figure>
+                <figure class="story__img story__img--small">
+                    <img src="src/img/hotel-placa.jpg" alt="Placa de madeira do Hotel João de Barro entre a vegetação, com o morro ao fundo" loading="lazy" width="582" height="493">
+                </figure>
+                <div class="story__badge">
+                    <span class="story__badge-num">30<small>m</small></span>
+                    <span class="story__badge-text">da beira-mar</span>
+                </div>
+            </div>
+            <div class="story__text reveal">
+                <p class="eyebrow">Nossa casa</p>
+                <h2 class="title">Como o pássaro que dá nome ao hotel, construímos um lar <em>com as próprias mãos.</em></h2>
+                <p>O joão-de-barro é conhecido por erguer a própria casa, pedaço por pedaço, com cuidado e paciência. É esse o espírito do nosso hotel: um lugar pequeno o bastante para conhecermos cada hóspede pelo nome, e bem cuidado o bastante para você querer voltar.</p>
+                <p>Estamos no canto sul da Praia Brava, na divisa com Balneário Camboriú — cercados por uma natureza exuberante, perto do Morro do Careca e a poucos passos dos restaurantes e dos pontos mais animados da praia.</p>
+
+                <dl class="stats">
+                    <div><dt>3 km</dt><dd>do centro de Balneário Camboriú</dd></div>
+                    <div><dt>6 km</dt><dd>do centro de Itajaí</dd></div>
+                    <div><dt>11 km</dt><dd>do Aeroporto de Navegantes</dd></div>
+                </dl>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ SUÍTES ============ -->
+    <section class="section suites" id="suites">
+        <div class="container">
+            <header class="section__head reveal">
+                <p class="eyebrow">Acomodações</p>
+                <h2 class="title">Suítes para cada <em>tipo de viagem</em></h2>
+                <p class="section__lead">Todas com sacada mobiliada, ar-condicionado quente e frio, TV por assinatura, frigobar, cofre digital, camas box e Wi-Fi gratuito.</p>
+            </header>
+
+            <div class="suites__grid" data-drag data-mobile-only data-dots>
+                <article class="suite reveal">
+                    <div class="suite__media">
+                        <img src="src/img/suite-dupla.jpg" alt="Suíte Dupla com cama de casal, enxoval branco e janela em arco" loading="lazy" width="800" height="800">
+                        <span class="suite__cap">Até 2 hóspedes</span>
+                    </div>
+                    <div class="suite__body">
+                        <h3 class="suite__name">Suíte Dupla</h3>
+                        <p class="suite__desc">Aconchegante e iluminada, pensada para casais que querem aproveitar a praia a pé.</p>
+                        <ul class="suite__tags"><li>Cama de casal</li><li>Sacada</li><li>Ar quente/frio</li></ul>
+                        <div class="suite__actions">
+                            <button class="link-btn" data-tour="vYvcy2ZJEbi" data-tour-title="Suíte Dupla">Tour 360°</button>
+                            <a href="#" data-book class="btn btn--dark btn--sm">Reservar</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="suite reveal">
+                    <div class="suite__media">
+                        <img src="src/img/suite-tripla.jpg" alt="Suíte Tripla com cama de casal, cama de solteiro e quadro decorativo" loading="lazy" width="803" height="436">
+                        <span class="suite__cap">Até 3 hóspedes</span>
+                    </div>
+                    <div class="suite__body">
+                        <h3 class="suite__name">Suíte Tripla</h3>
+                        <p class="suite__desc">Espaço extra para quem viaja com um filho ou com um amigo, sem abrir mão do conforto.</p>
+                        <ul class="suite__tags"><li>Casal + solteiro</li><li>Sacada</li><li>Ar quente/frio</li></ul>
+                        <div class="suite__actions">
+                            <button class="link-btn" data-tour="9FmwgehSdpM" data-tour-title="Suíte Tripla">Tour 360°</button>
+                            <a href="#" data-book class="btn btn--dark btn--sm">Reservar</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="suite reveal">
+                    <div class="suite__media">
+                        <img src="src/img/suite-quadrupla.jpg" alt="Vista da sacada da Suíte Quádrupla para a piscina do hotel" loading="lazy" width="803" height="436">
+                        <span class="suite__cap">Até 4 hóspedes</span>
+                    </div>
+                    <div class="suite__body">
+                        <h3 class="suite__name">Suíte Quádrupla</h3>
+                        <p class="suite__desc">Ideal para famílias: sacada com vista para a piscina e espaço para toda a turma.</p>
+                        <ul class="suite__tags"><li>Família</li><li>Vista piscina</li><li>Ar quente/frio</li></ul>
+                        <div class="suite__actions">
+                            <button class="link-btn" data-tour="6ofzFfNuyzT" data-tour-title="Suíte Quádrupla">Tour 360°</button>
+                            <a href="#" data-book class="btn btn--dark btn--sm">Reservar</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Master em destaque -->
+            <article class="master reveal">
+                <div class="master__media">
+                    <img src="src/img/suite-master.jpg" alt="Suíte Master com dois ambientes, cama king e sacada" loading="lazy" width="780" height="429">
+                </div>
+                <div class="master__body">
+                    <p class="eyebrow eyebrow--gold">A mais completa</p>
+                    <h3 class="master__name">Suíte Master <em>com hidromassagem</em></h3>
+                    <p>Dois ambientes, duas sacadas e banheira de hidromassagem. Perfeita para famílias ou para quem quer transformar a viagem num verdadeiro descanso.</p>
+                    <ul class="master__list">
+                        <li><strong>Até 5</strong> hóspedes</li>
+                        <li><strong>1 cama king</strong> + 2 de solteiro + sofá-cama</li>
+                        <li><strong>Banheira</strong> de hidromassagem</li>
+                        <li><strong>2 TVs</strong> e 2 ar-condicionados</li>
+                        <li><strong>Closet</strong>, cofre e frigobar</li>
+                        <li><strong>2 sacadas</strong> com mesa e cadeiras</li>
+                    </ul>
+                    <div class="suite__actions">
+                        <a href="#" data-book class="btn btn--gold">Reservar a Master</a>
+                        <button class="link-btn link-btn--light" data-tour="S4XnZ9BfzVg" data-tour-title="Suíte Master">Tour 360°</button>
+                    </div>
+                </div>
+            </article>
+
+            <div class="policies reveal">
+                <div class="policy"><strong>Crianças até 3 anos</strong><span>não pagam, na mesma cama dos pais</span></div>
+                <div class="policy"><strong>Cama extra</strong><span>disponível sob consulta</span></div>
+                <div class="policy"><strong>Sem taxas adicionais</strong><span>o valor que você vê é o que você paga</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ LAZER ============ -->
+    <section class="section lazer" id="lazer">
+        <div class="container">
+            <header class="section__head section__head--split reveal">
+                <div>
+                    <p class="eyebrow">Lazer & estrutura</p>
+                    <h2 class="title">Dias de sol que <em>começam aqui</em></h2>
+                </div>
+                <p class="section__lead">Nem sempre dá vontade de atravessar a rua até a areia. Para esses dias, o hotel tem o próprio pedacinho de paraíso.</p>
+            </header>
+
+            <div class="bento">
+                <figure class="bento__item bento__item--lg reveal">
+                    <img src="src/img/hotel-piscina.jpg" alt="Piscina de 15 metros com deck de pedra e espreguiçadeiras" loading="lazy" width="803" height="436">
+                    <figcaption><strong>Piscina de 15 metros</strong><span>Deck de pedra e espreguiçadeiras, em frente ao hotel.</span></figcaption>
+                </figure>
+                <figure class="bento__item reveal">
+                    <img src="src/img/hotel-spa.jpg" alt="Banheira SPA aquecida em deck de madeira sob pergolado" loading="lazy" width="803" height="436">
+                    <figcaption><strong>SPA aquecido</strong><span>Banheira para 6 pessoas, ao lado da piscina.</span></figcaption>
+                </figure>
+                <figure class="bento__item reveal">
+                    <img src="src/img/hotel-lobby.jpg" alt="Lobby com sofás, mesa de jogos e TV" loading="lazy" width="803" height="436">
+                    <figcaption><strong>Lobby & carteado</strong><span>TV 50", sofás e mesa de jogos.</span></figcaption>
+                </figure>
+            </div>
+
+            <ul class="amenities reveal">
+                <li>Churrasqueira com utensílios</li>
+                <li>Cozinha com micro-ondas</li>
+                <li>Estacionamento coberto e monitorado</li>
+                <li>Lavanderia (terceirizada)</li>
+                <li>Kit praia sem custo</li>
+                <li>Wi-Fi em todas as áreas</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ============ CAFÉ ============ -->
+    <section class="cafe" id="cafe">
+        <div class="cafe__media reveal">
+            <img src="src/img/hotel-cafe.jpg" alt="Salão do café da manhã com buffet e mesas com toalhas xadrez" loading="lazy" width="803" height="436">
+        </div>
+        <div class="cafe__text reveal">
+            <p class="eyebrow eyebrow--gold">Café da manhã</p>
+            <h2 class="title title--light">Bolo quentinho, <em>feito aqui.</em></h2>
+            <p>Todas as manhãs servimos um café completo, com bolos e outros itens preparados artesanalmente na cozinha do hotel. Sem pressa — as férias começam na mesa do café.</p>
+            <p class="cafe__note">Incluso em todas as diárias.</p>
+        </div>
+    </section>
+
+    <!-- ============ TOUR 360 ============ -->
+    <section class="section tour" id="tour">
+        <div class="container">
+            <header class="section__head reveal">
+                <p class="eyebrow">Tour virtual 360°</p>
+                <h2 class="title">Caminhe pelo hotel <em>antes de chegar</em></h2>
+                <p class="section__lead">Escolha um ambiente e navegue em 3D, como se já estivesse aqui.</p>
+            </header>
+
+            <div class="tour__tabs reveal" role="tablist" aria-label="Ambientes do tour">
+                <button role="tab" class="tour__tab is-active" aria-selected="true" data-model="AaVRcyrEU9u">Piscina & Lobby</button>
+                <button role="tab" class="tour__tab" aria-selected="false" data-model="vYvcy2ZJEbi">Suíte Dupla</button>
+                <button role="tab" class="tour__tab" aria-selected="false" data-model="9FmwgehSdpM">Suíte Tripla</button>
+                <button role="tab" class="tour__tab" aria-selected="false" data-model="6ofzFfNuyzT">Suíte Quádrupla</button>
+                <button role="tab" class="tour__tab" aria-selected="false" data-model="S4XnZ9BfzVg">Suíte Master</button>
+            </div>
+
+            <div class="tour__frame reveal" id="tourFrame">
+                <button class="tour__poster" id="tourPoster" style="background-image:url('src/img/hotel-piscina.jpg')">
+                    <span class="tour__play">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5l12 7-12 7z"/></svg>
+                    </span>
+                    <span class="tour__poster-label">Iniciar tour — <b id="tourLabel">Piscina & Lobby</b></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ REGIÃO ============ -->
+    <section class="section regiao" id="regiao">
+        <div class="container">
+            <header class="section__head section__head--split reveal">
+                <div>
+                    <p class="eyebrow">A região</p>
+                    <h2 class="title">Das praias selvagens <em>ao agito de BC</em></h2>
+                </div>
+                <p class="section__lead">Praias agrestes e preservadas, trilhas, parapente no Morro do Careca, teleférico, Cristo Luz e a gastronomia de Balneário Camboriú — tudo a poucos minutos.</p>
+            </header>
+        </div>
+
+        <div class="carousel reveal" id="carousel">
+            <div class="carousel__track" id="carouselTrack" data-drag data-autoplay="4500">
+                <figure class="place">
+                    <img src="src/img/regiao-morro-careca.jpg" alt="Parapentes sobrevoando a Praia Brava vista do alto do Morro do Careca" loading="lazy" width="845" height="634">
+                    <figcaption><span class="place__dist">Ao lado</span><strong>Morro do Careca</strong><span>Voo livre e a vista mais bonita da Praia Brava.</span></figcaption>
+                </figure>
+                <figure class="place">
+                    <img src="src/img/regiao-solidao.jpg" alt="Praia da Solidão entre rochas e vegetação, com Balneário Camboriú ao fundo" loading="lazy" width="1000" height="667">
+                    <figcaption><span class="place__dist">Trilha curta</span><strong>Praia da Solidão</strong><span>Uma enseada escondida entre a Brava e BC.</span></figcaption>
+                </figure>
+                <figure class="place">
+                    <img src="src/img/regiao-bc-mirante.jpg" alt="Vista de Balneário Camboriú a partir do Morro do Careca" loading="lazy" width="984" height="592">
+                    <figcaption><span class="place__dist">3 km</span><strong>Balneário Camboriú</strong><span>Compras, restaurantes e vida noturna.</span></figcaption>
+                </figure>
+                <figure class="place">
+                    <img src="src/img/regiao-unipraias.jpg" alt="Praia de Laranjeiras vista do Parque Unipraias" loading="lazy" width="874" height="717">
+                    <figcaption><span class="place__dist">Teleférico</span><strong>Parque Unipraias</strong><span>Bondinho até a Praia de Laranjeiras.</span></figcaption>
+                </figure>
+                <figure class="place">
+                    <img src="src/img/regiao-interpraias.jpg" alt="Praia com mar verde e mata atlântica ao longo da Avenida Interpraias" loading="lazy" width="994" height="679">
+                    <figcaption><span class="place__dist">Passeio</span><strong>Avenida Interpraias</strong><span>Mirantes e praias agrestes pelo caminho.</span></figcaption>
+                </figure>
+                <figure class="place">
+                    <img src="src/img/regiao-brava-areia.jpg" alt="Faixa de areia da Praia Brava com banhistas e ondas" loading="lazy" width="847" height="620">
+                    <figcaption><span class="place__dist">30 m</span><strong>Praia Brava</strong><span>Ondas para o surfe e areia para o dia todo.</span></figcaption>
+                </figure>
+            </div>
+            <div class="container carousel__nav">
+                <div class="progress" aria-hidden="true"><span id="carProgress"></span></div>
+                <p class="carousel__hint" aria-hidden="true">
+                    <svg viewBox="0 0 24 24"><path d="M8 13V5.5a1.5 1.5 0 013 0V12M11 11.5v-2a1.5 1.5 0 013 0V12M14 10.5a1.5 1.5 0 013 0V12M17 11.5a1.5 1.5 0 013 0V16a6 6 0 01-6 6h-2a6 6 0 01-5-2.7L4.3 15a1.5 1.5 0 012.4-1.8L8 15"/></svg>
+                    Arraste para explorar
+                </p>
+                <button class="round-btn" id="carPrev" aria-label="Anterior"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></button>
+                <button class="round-btn" id="carNext" aria-label="Próximo"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ PACOTES ============ -->
+    <section class="section pacotes" id="pacotes">
+        <div class="container">
+            <header class="section__head reveal">
+                <p class="eyebrow">Pacotes de temporada</p>
+                <h2 class="title">Datas especiais <em>esgotam cedo</em></h2>
+                <p class="section__lead">Garanta seu lugar nas datas mais disputadas do litoral catarinense. Fale com a gente e receba a tarifa na hora.</p>
+            </header>
+
+            <div class="pacotes__grid" data-drag data-mobile-only data-dots>
+                <article class="pacote reveal">
+                    <span class="pacote__tag">Réveillon 2026/2027</span>
+                    <h3>Virada na Praia Brava</h3>
+                    <p>Pacotes de 5 ou 7 diárias para ver os fogos de Balneário Camboriú a poucos minutos do hotel.</p>
+                    <ul>
+                        <li>Café da manhã incluso</li>
+                        <li>Todas as categorias de suíte</li>
+                        <li>Criança até 3 anos não paga</li>
+                    </ul>
+                    <a href="#" data-wa="Olá! Gostaria de saber sobre o pacote de Réveillon 2026/2027." class="btn btn--dark">Consultar tarifas</a>
+                </article>
+                <article class="pacote pacote--dark reveal">
+                    <span class="pacote__tag">Carnaval 2027</span>
+                    <h3>Carnaval de praia</h3>
+                    <p>5 diárias de sol, mar e festa — com a tranquilidade de voltar para um hotel calmo e aconchegante.</p>
+                    <ul>
+                        <li>Café da manhã incluso</li>
+                        <li>Piscina e SPA aquecido</li>
+                        <li>Estacionamento coberto</li>
+                    </ul>
+                    <a href="#" data-wa="Olá! Gostaria de saber sobre o pacote de Carnaval 2027." class="btn btn--gold">Consultar tarifas</a>
+                </article>
+                <article class="pacote reveal">
+                    <span class="pacote__tag">Baixa temporada</span>
+                    <h3>Praia sem fila</h3>
+                    <p>De março a novembro a Brava é outra: tranquila, com o mar só para você e as melhores tarifas do ano.</p>
+                    <ul>
+                        <li>Ar-condicionado quente e frio</li>
+                        <li>SPA aquecido o ano todo</li>
+                        <li>Wi-Fi gratuito em todo o hotel</li>
+                    </ul>
+                    <a href="#" data-book class="btn btn--dark">Ver disponibilidade</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ LOCALIZAÇÃO + CONTATO ============ -->
+    <section class="section contato" id="contato">
+        <div class="container contato__grid">
+            <div class="contato__info reveal">
+                <p class="eyebrow">Como chegar</p>
+                <h2 class="title">Venha nos <em>visitar</em></h2>
+
+                <address class="contato__addr">
+                    Rua Virgínia Ângelo Severino, 37<br>
+                    Praia Brava — Itajaí / SC
+                </address>
+
+                <ul class="contato__list">
+                    <li>
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1.9.4 1.8.7 2.7a2 2 0 01-.5 2.1L8 9.8a16 16 0 006 6l1.3-1.3a2 2 0 012.1-.4c.9.3 1.8.6 2.7.7a2 2 0 011.7 2z"/></svg>
+                        <div><span>Telefone</span><a href="tel:+554733606759">(47) 3360-6759</a></div>
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21l1.7-5A9 9 0 1112 21a9 9 0 01-4.3-1.1z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1-1.5-2-1-1 1c-1 0-2.5-1.5-2.5-2.5l1-1-1-2z"/></svg>
+                        <div><span>WhatsApp</span><a href="#" data-wa="Olá! Vim pelo site e gostaria de mais informações." class="js-wa-number">(47) 99771-5769</a></div>
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+                        <div><span>E-mail</span><a href="mailto:hotel@hoteljoaodebarro.com.br">hotel@hoteljoaodebarro.com.br</a></div>
+                    </li>
+                </ul>
+
+                <form class="msg" id="msgForm">
+                    <p class="msg__title">Mande uma mensagem</p>
+                    <div class="msg__row">
+                        <input type="text" id="msgName" placeholder="Seu nome" required aria-label="Seu nome">
+                        <input type="text" id="msgDates" placeholder="Datas (opcional)" aria-label="Datas desejadas">
+                    </div>
+                    <textarea id="msgText" rows="3" placeholder="Como podemos ajudar?" required aria-label="Mensagem"></textarea>
+                    <button type="submit" class="btn btn--dark">Enviar pelo WhatsApp</button>
+                </form>
+            </div>
+
+            <div class="contato__map reveal">
+                <iframe
+                    title="Mapa: Hotel João de Barro, Praia Brava, Itajaí"
+                    src="https://www.google.com/maps?q=Rua+Virg%C3%ADnia+%C3%82ngelo+Severino,+37,+Praia+Brava,+Itaja%C3%AD+-+SC&output=embed"
+                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <ul class="distances">
+                    <li><strong>30 m</strong>Praia Brava</li>
+                    <li><strong>3 km</strong>Centro de BC</li>
+                    <li><strong>6 km</strong>Centro de Itajaí</li>
+                    <li><strong>11 km</strong>Aeroporto NVT</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ CTA FINAL ============ -->
+    <section class="final" style="background-image:url('src/img/hero-praia.jpg')">
+        <div class="final__shade"></div>
+        <div class="container final__inner reveal">
+            <h2 class="title title--light">Sua próxima manhã pode começar <em>com vista para o mar.</em></h2>
+            <div class="hero__actions">
+                <a href="#" data-book class="btn btn--gold">Reservar agora</a>
+                <a href="https://www.instagram.com/hoteljoaodebarro/" target="_blank" rel="noopener" class="btn btn--ghost">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+                    @hoteljoaodebarro
+                </a>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+        <div class="container footer__grid">
+            <div class="footer__brand">
+                <img src="src/img/logo.png" alt="Hotel João de Barro" width="334" height="211" loading="lazy">
+                <p>Hotel boutique no centrinho da Praia Brava, a 30 metros do mar.</p>
+                <div class="footer__social">
+                    <a href="https://www.instagram.com/hoteljoaodebarro/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+                    <a href="https://www.facebook.com/hoteljoaodebarro/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M15 3h-2.5A4.5 4.5 0 008 7.5V10H5.5v3.5H8V21h3.5v-7.5H14l.5-3.5h-3V7.8c0-.6.4-1 1-1H15z"/></svg></a>
+                    <a href="#" data-wa="Olá! Vim pelo site." aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M3 21l1.7-5A9 9 0 1112 21a9 9 0 01-4.3-1.1z"/></svg></a>
+                </div>
+            </div>
+            <div>
+                <p class="footer__title">Navegue</p>
+                <ul>
+                    <li><a href="#hotel">O Hotel</a></li>
+                    <li><a href="#suites">Suítes</a></li>
+                    <li><a href="#lazer">Lazer</a></li>
+                    <li><a href="#tour">Tour 360°</a></li>
+                    <li><a href="#regiao">A Região</a></li>
+                    <li><a href="#pacotes">Pacotes</a></li>
+                </ul>
+            </div>
+            <div>
+                <p class="footer__title">Contato</p>
+                <ul>
+                    <li>Rua Virgínia Ângelo Severino, 37</li>
+                    <li>Praia Brava — Itajaí / SC</li>
+                    <li><a href="tel:+554733606759">(47) 3360-6759</a></li>
+                    <li><a href="mailto:hotel@hoteljoaodebarro.com.br">hotel@hoteljoaodebarro.com.br</a></li>
+                </ul>
+            </div>
+            <div>
+                <p class="footer__title">Reserve direto</p>
+                <p class="footer__small">Reservando pelo site você fala direto com o hotel e garante a melhor tarifa disponível.</p>
+                <a href="#" data-book class="btn btn--gold btn--sm">Reservar</a>
+            </div>
+        </div>
+        <div class="container footer__bottom">
+            <span>© <span id="year">2026</span> Hotel João de Barro · Praia Brava, Itajaí/SC</span>
+            <span>Site por <a href="#">NegócioSmart</a></span>
+        </div>
+    </footer>
+
+    <!-- WhatsApp flutuante -->
+    <a href="#" class="wa-float" data-wa="Olá! Vim pelo site e gostaria de fazer uma reserva." aria-label="Falar no WhatsApp">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 00-11.2 19.6L3 29l6.6-1.7A13 13 0 1016 3zm0 23.7c-2 0-3.9-.5-5.6-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.7 10.7 0 1116 26.7zm5.9-8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a8.8 8.8 0 01-4.4-3.8c-.3-.6.3-.5.9-1.7.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 00-.9.4 3.6 3.6 0 00-1.1 2.7 6.3 6.3 0 001.3 3.3 14.4 14.4 0 005.5 4.9c2 .9 2.8.9 3.9.8.6-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5l-.7-.4z"/></svg>
+        <span>Reserve pelo WhatsApp</span>
+    </a>
+
+    <!-- Modal do tour -->
+    <div class="modal" id="tourModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+        <div class="modal__box">
+            <div class="modal__head">
+                <p id="modalTitle">Tour 360°</p>
+                <button class="modal__close" id="modalClose" aria-label="Fechar">&times;</button>
+            </div>
+            <div class="modal__body" id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="src/js/main.js"></script>
+</body>
+</html>
